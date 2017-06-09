@@ -1,9 +1,8 @@
-
 .main-image {
     background-size: cover;
     background-image: url("public/image1.jpg");
     width: 100%;
-    height: 718px;
+    height: 603px;
     position: relative;
     background-attachment: fixed;
   }
@@ -14,7 +13,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#f5061b54',GradientType=0 );
   content: "";
   display: block;
-  height: 718px;
+  height: 603px;
   left: 0;
   position: absolute;
   top: 0;
@@ -40,15 +39,19 @@
   height: 250px;
 }
 
-
-
+.nav-link>span {
+  padding-top: 10px;
+}
 
 
 .navbar {
   background-color: white;
+  border-bottom: 2px solid grey;
+
 }
 
-.navbar-brand ,span {
+ .navbar-brand, span {
   color: grey;
+  font-size: 20px;
 }
 
